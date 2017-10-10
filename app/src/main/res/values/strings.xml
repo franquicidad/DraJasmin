@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">True Skin</string>
+    <string name="telefonojas">3023891427</string>
+    <string name="accesoaredes">Accede a las redes con un click</string>
+    <string name="desPeeling">Es un sistema que por medio de una espatula ultrasonica  de ondas mecánicas, se genera vapor de agua para posteriormente dilatar los los poros y retirar el sebo. Logrando una exfoliacion profunda de las células muertas. Eliminando impurezas, como (puntos blancos negros) ocasionados por la actividad sebácea y minimizando cicatrices atroficas, poros dilatados, deshidratacion, sin producir rojez (eritema) en la piel. Mejorando la textura elasticidad, tonalidad, y (melasmas) manchas localizadas en la piel.</string>
+    <string name="desPlasma">Es un conjunto de principios activos de alta potencia que contienen, factores de crecimiento naturales (conjunto de proteínas tratadas) que logran, una renovación integral a nivel cutáneo estas sustancias  son introducidas por iones. Este procedimiento es especialmente para pieles desestabilizabas prematuramente envejecidas, (seniles) sin vitalidad; combatiendo la flacidez estimulando colágeno, elastina ,suavidad y luminosidad a la piel.</string>
+    <string name="desRejuve">Es una renovación a nivel celular de la capa Epidermica (capa superficial) de la piel la que por medio; de ácidos especializados que hacen posible la eliminación de manchas(melasmas) secuelas de acné, se minimizan las líneas finas y se suavicen los pliegues (arrugas). Logrando una densificacion y uniformidad en el tono de la piel. Promoviendo nuevo colágeno y elastina perdidos por los efectos nocivos de los radicales libres. Resultados una nueva piel.</string>
+    <string name="Limpieza">Limpieza profunda de poros desde comodones (puntos blancos negros, granos y remomocion de milias (poro queratinizado) que se tapona controlando de esta forma; la excesiva actividad sebacea . Este procedimiento es especialmente para pieles reactivas que son, propensas al brote logrando un mejoramiento en la piel con efecto anti-bacteriano, mejorando su textura y suavidad proporcionándole un aspecto mas saludable a la piel. Excepto en pieles rosáceas.</string>
+    <string name="hibraderma">Uno de los procedimientos más innovadores a nivel de electroestetica facial. Una técnica que elimina las capas superficiales de la piel suaviza cicatrices atroficas, secuelas de acné, manchas(melasmas) disminución del tamaño del poro, lineas de expresión y arrugas finas. Apta para todo tipo de piel especialmente para pieles seniles, (maduras)que requieran una renovación de la epidermis (capa superficial de la piel). Proporcionando mejor textura tonalidad, y elasticidad cutanea. Resultados inmediatos desde la primera sección. Contraindicaciones no aptas en pieles acneicas y rosaceas.</string>
+
+    <string-array name="Tratamientos">
+        <item>Peeling Ultrasonico</item>
+        <item>Plasma Topico</item>
+        <item>Renovacion facial</item>
+        <item>Limpieza facial</item>
+        <item>Dermoabrasion</item>
+        <item>Hidratacion facial</item>
+    </string-array>
+
+    <array name="Imagenes">
+        <item>@drawable/peeling</item>
+        <item>@drawable/plasma2nueva2</item>
+        <item>@drawable/rejuve</item>
+        <item>@drawable/limpiezafacial</item>
+        <item>@drawable/hibraderma</item>
+        <item>@drawable/hidratacionfacial</item>
+    </array>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0E0"
+    tools:context="com.apps.franco.drajasmin.Info">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        app:cardElevation="30dp"
+        app:cardCornerRadius="15dp"
+        >
+
+        <TextView
+            android:id="@+id/desProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagenProducto"
+            android:text="Peelings"
+            android:textSize="17sp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="7dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imagenProducto"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="7dp"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="7dp"
+            app:srcCompat="@drawable/cara" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

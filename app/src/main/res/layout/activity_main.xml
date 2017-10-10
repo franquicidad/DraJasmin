@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/logotrueskinappmod3"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/contacto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="#5a0876"
+            android:text="Contacto"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/ingresa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Ingresa"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:background="#8E24AA"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+
+            android:id="@+id/facebookImage"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/facebook2" />
+
+        <ImageView
+            android:id="@+id/instaImage"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/logoinstagram"/>
+
+        <ImageView
+            android:id="@+id/internetImage"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/grid_world"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
